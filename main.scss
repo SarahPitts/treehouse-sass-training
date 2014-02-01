@@ -2,15 +2,24 @@ body {
 	background: #eee;
 }
 
-.blog .entry {
-	h1 {
-		font-size: 21px;
-		color: blue;
+.blog {
+	> h1 {
+		color: red;
+		border: 1px solid red;
 	}
-	p {
-		font-size: 12px;
-	}
-	a {
-	color: red;
+	.entry {
+		h1 {
+			font-size: 21px;
+			color: blue;
+		}
+		p {
+			font-size: 12px;
+		}
+		a {
+		color: red;
+		&:hover {
+			color: blue;
+			}
+		}
 	}
 }
