@@ -2,11 +2,15 @@ body {
 	background: #eee;
 }
 
-.blog .entry h1 {
-	font-size: 21px;
-	color: blue;
-}
-
-.blog .entry p {
-	font-size: 12px;
+.blog .entry {
+	h1 {
+		font-size: 21px;
+		color: blue;
+	}
+	p {
+		font-size: 12px;
+	}
+	a {
+	color: red;
+	}
 }
