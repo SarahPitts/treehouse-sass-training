@@ -1,4 +1,4 @@
-.bar {
+%bar {
 	height: 14px;
 	font-size: 10px;
 	> div {
@@ -8,10 +8,10 @@
 }
 
 .menu {
-	@extend .bar;
+	@extend %bar;
 	background: #345;
 }
 
 .nav {
-	@extend .bar;
+	@extend %bar;
 }
