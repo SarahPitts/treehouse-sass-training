@@ -6,3 +6,12 @@
 		clear: none;
 	}
 }
+
+.menu {
+	@extend .bar;
+	background: #345;
+}
+
+.nav {
+	@extend .bar;
+}

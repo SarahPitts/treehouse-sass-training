@@ -1,6 +1,9 @@
-.bar {
+.bar, .menu, .nav {
   height: 14px;
   font-size: 10px; }
-  .bar > div {
+  .bar > div, .menu > div, .nav > div {
     float: left;
     clear: none; }
+
+.menu {
+  background: #345; }
